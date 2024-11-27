@@ -7,7 +7,8 @@ https://www.anaconda.com/download/ <br>
 ## 仮想環境構築
 WindowsならAnaconda prompt, MacOSならterminalを起動する。<br>
 ### Windows (Anaconda prompt)<br>
-(base) > conda create -n [環境名] python=[version] <br>
+conda create -n [環境名] python=[version] <br>
 ### Mac (terminal)<br>
-$ conda create -n [環境名] python=[version] <br>
+conda create -n [環境名] python=[version] <br>
+
 環境を起動する際には　conda activate [環境名]　を実行<br>
