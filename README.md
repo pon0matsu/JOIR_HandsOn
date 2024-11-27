@@ -43,13 +43,7 @@ conda activate age_env
 ```
 ### 3. 必要なパッケージをインストール
 ```bash
-conda install -c defaults -c conda-forge pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 -y
-pip install timm==0.5.4 opencv-python
-```
-### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
-```bash
-conda env create -f [age_env.ymlへのパス]
-conda activate age_env
+pip install pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 timm==0.5.4 opencv-python
 ```
 
 # ②性別モデルのConda 環境を構築する方法
@@ -66,14 +60,23 @@ conda create -n gender_env python=3.8
 conda activate gender_env
 ```
 ### 3. 必要なパッケージをインストール
-Apple M1以降にも対応するようにopencv-python==4.5.3.56に指定変更
+pip installが可能であるopencv-python==4.3.0.38に変更しています。（本来はopencv-python==4.3.0.36）<br>
 ```bash
-conda install -c defaults -c conda-forge tensorflow=2.4.0 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
-pip install opencv-python==4.5.3.56
-```
-### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
-```bash
-conda env create -f [gender_env.ymlへのパス]
-conda activate gender_env
+pip install tensorflow=2.4.0 opencv-python==4.3.0.38
 ```
 
+# Apple Silicon等Localでの実施が困難な場合
+Google Colabを使用<br>
+Google ColabのセルはPythonコードを記述して実行するために使われることが多いのですが、セルの先頭に%%shellと書くことで、PythonではなくLinuxコマンド（Shellコマンド）を実行するためのセルに切り替えることができるため、それを利用した形になります。<br>
+## 年齢モデル
+https://colab.research.google.com/drive/1NPL-hKVARE5jmI6de4gopxNJGPS3yixd?usp=sharing　<br>
+Google Colabのノートブックを自身のGoogle Driveにコピーし、使用開始　<br>
+①モデルデータ、age_colab.py(本来のコードを一部修正)、眼底写真が画像を一時的にアップロードする。<br>
+②Minicondaを使用して、環境構築をしており、最終的にage_colab.pyの内容を実行<br>
+https://colab.research.google.com/drive/1NPL-hKVARE5jmI6de4gopxNJGPS3yixd?usp=sharing
+
+## 性別モデル
+https://colab.research.google.com/drive/1Y0SDYc7883lM8XpokjIFfJusRTeluP5A?usp=sharing
+Google Colabのノートブックを自身のGoogle Driveにコピーし、使用開始　<br>
+①モデルデータ、gender_colab.py(本来のコードを一部修正)、眼底写真が画像を一時的にアップロードする。<br>
+②Minicondaを使用して、環境構築をしており、最終的にage_colab.pyの内容を実行<br>
