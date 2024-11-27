@@ -1,5 +1,5 @@
 # ハンズオン用資料
-# 概要
+# 基礎知識
 ## Anaconda環境構築
 https://www.anaconda.com/download/ <br>
 ・Eメールアドレスを登録し、ダウンロードページヘ。<br>
@@ -28,7 +28,7 @@ conda install [ライブラリ名]
 conda install [ライブラリ名]
 ```
 
-# 年齢モデルのConda 環境を構築する方法
+# ①年齢モデルのConda 環境を構築する方法
 この手順では、ターミナルから直接コマンドを実行して`age_env`という名前のConda環境を構築します。<br>
 ---
 ## 手順
@@ -52,7 +52,7 @@ conda env create -f [age_env.ymlへのパス]
 conda activate age_env
 ```
 
-# 性別モデルのConda 環境を構築する方法
+# ②性別モデルのConda 環境を構築する方法
 この手順では、ターミナルから直接コマンドを実行して`gender_env`という名前のConda環境を構築します。<br>
 ---
 ## 手順
