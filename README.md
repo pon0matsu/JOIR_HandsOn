@@ -66,8 +66,10 @@ conda create -n gender_env python=3.8
 conda activate gender_env
 ```
 ### 3. 必要なパッケージをインストール
+Apple M1以降にも対応するようにopencv-python==4.5.3.56に指定変更
 ```bash
-conda install -c defaults -c conda-forge opencv tensorflow=2.4.0 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
+conda install -c defaults -c conda-forge tensorflow=2.4.0 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
+pip install opencv-python==4.5.3.56
 ```
 ### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
 ```bash
