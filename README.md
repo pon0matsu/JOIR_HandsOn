@@ -20,7 +20,7 @@ conda create -n [環境名] python=[version] <br>
 ### Mac (terminal)<br>
 $ conda install [ライブラリ名]<br>
 
-# Conda 環境をYAMLファイルなしで構築する方法
+# <span style="color:blue;">Conda 環境をYAMLファイルなしで構築する方法</span>
 この手順では、ターミナルから直接コマンドを実行して`gender_env`という名前のConda環境を構築します。
 ---
 ## 手順
