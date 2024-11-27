@@ -42,6 +42,7 @@ conda create -n age_env python=3.8 -y
 conda activate age_env
 ```
 ### 3. 必要なパッケージをインストール
+（注意）opencv-python=4.3.0.36は配布終了しているため推奨から変更
 ```bash
 conda install -c defaults -c conda-forge pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 -y
 pip install timm==0.5.4 opencv-python
