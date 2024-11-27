@@ -1,5 +1,5 @@
 # ハンズオン用資料
-基礎知識
+## 基礎知識
 ## Anaconda環境構築
 https://www.anaconda.com/download/ <br>
 ・Eメールアドレスを登録し、ダウンロードページヘ。<br>
