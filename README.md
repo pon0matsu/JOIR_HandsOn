@@ -35,20 +35,21 @@ conda install [ライブラリ名]
 ### 1. 新しい環境を作成
 以下のコマンドで、Python 3.8を使用する新しい環境を作成します。<br>
 ```bash
-conda create -n gender_env python=3.8
+conda create -n age_env python=3.8 -y
 ```
 ### 2. 環境を有効化
 ```bash
-conda activate gender_env
+conda activate age_env
 ```
 ### 3. 必要なパッケージをインストール
 ```bash
-conda install -c defaults -c conda-forge tensorflow=2.4.0 opencv=4.3.0.36 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
+conda install -c defaults -c conda-forge pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 -y
+pip install timm==0.5.4 opencv-python
 ```
 ### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
 ```bash
-conda env create -f [gender_env.ymlへのパス]
-conda activate gender_env
+conda env create -f [age_env.ymlへのパス]
+conda activate age_env
 ```
 
 # 性別モデルのConda 環境を構築する方法
