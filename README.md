@@ -45,8 +45,9 @@ conda activate gender_env
 ```bash
 conda install -c defaults -c conda-forge tensorflow=2.4.0 opencv=4.3.0.36 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
 ```
-### 4. 必要なパッケージをインストール
-インストールが正しく完了していることを確認するため、以下のコマンドを実行します。<br>
+### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
 ```bash
-conda list
+conda env create -f [gender_env.ymlへのパス]
+conda activate gender_env
 ```
+
