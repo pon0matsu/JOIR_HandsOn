@@ -66,9 +66,8 @@ conda create -n gender_env python=3.8
 conda activate gender_env
 ```
 ### 3. 必要なパッケージをインストール
-（注意）opencv-python=4.3.0.36は配布終了しているため推奨から変更
 ```bash
-conda install -c defaults -c conda-forge opencv-python=4.3.0.38 tensorflow=2.4.0 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
+conda install -c defaults -c conda-forge opencv tensorflow=2.4.0 matplotlib pandas scikit-learn jupyter jupyterlab ipywidgets seaborn plotly numpy scipy scikit-image pillow h5py keras
 ```
 ### 4. (別手順)当レポジトリ内のymlファイルを使用した場合
 ```bash
