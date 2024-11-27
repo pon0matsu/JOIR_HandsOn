@@ -1,4 +1,5 @@
 # ハンズオン用資料
+# 概要
 ## Anaconda環境構築
 https://www.anaconda.com/download/ <br>
 ・Eメールアドレスを登録し、ダウンロードページヘ。<br>
@@ -18,3 +19,12 @@ conda create -n [環境名] python=[version] <br>
 (環境名) > conda install [ライブラリ名]<br>
 ### Mac (terminal)<br>
 $ conda install [ライブラリ名]<br>
+
+# Conda 環境をYAMLファイルなしで構築する方法
+この手順では、ターミナルから直接コマンドを実行して`gender_env`という名前のConda環境を構築します。
+---
+## 手順
+### 1. 新しい環境を作成
+以下のコマンドで、Python 3.8を使用する新しい環境を作成します。
+```bash
+conda create -n gender_env python=3.8
