@@ -27,7 +27,7 @@ conda install [ライブラリ名]
 conda install [ライブラリ名]
 ```
 
-# ①年齢モデルのConda 環境を構築する方法<br>
+# ①年齢モデルのConda 環境を構築する方法　<br>
 http://www.joir.jp/data/<br>
 この手順では、ターミナルから直接コマンドを実行して`age_env`という名前のConda環境を構築します。<br>
 ---
