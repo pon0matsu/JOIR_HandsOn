@@ -1,5 +1,5 @@
 # ハンズオン用資料
-# 基礎知識
+基礎知識
 ## Anaconda環境構築
 https://www.anaconda.com/download/ <br>
 ・Eメールアドレスを登録し、ダウンロードページヘ。<br>
@@ -28,7 +28,7 @@ conda install [ライブラリ名]
 conda install [ライブラリ名]
 ```
 
-# ①年齢モデルのConda 環境を構築する方法
+# ①年齢モデルのConda 環境を構築する方法<br>
 この手順では、ターミナルから直接コマンドを実行して`age_env`という名前のConda環境を構築します。<br>
 ---
 ## 手順
@@ -46,7 +46,7 @@ conda activate age_env
 pip install pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 timm==0.5.4 opencv-python
 ```
 
-# ②性別モデルのConda 環境を構築する方法
+# ②性別モデルのConda 環境を構築する方法<br>
 この手順では、ターミナルから直接コマンドを実行して`gender_env`という名前のConda環境を構築します。<br>
 ---
 ## 手順
