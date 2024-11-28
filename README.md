@@ -43,7 +43,7 @@ conda activate age_env
 ```
 ### 3. 必要なパッケージをインストール
 ```bash
-pip install pytorch=1.9.0 torchvision=0.10.0 numpy=1.22.1 pillow=9.0.0 tqdm=4.62.3 ipywidgets=8.0.2 timm==0.5.4 opencv-python
+pip install pytorch==1.9.0 torchvision==0.10.0 numpy==1.22.1 pillow==9.0.0 tqdm==4.62.3 ipywidgets==8.0.2 timm==0.5.4 opencv-python
 ```
 
 # ②性別モデルのConda 環境を構築する方法<br>
@@ -63,7 +63,7 @@ conda activate gender_env
 ### 3. 必要なパッケージをインストール
 pip installが可能であるopencv-python==4.3.0.38に変更しています。（本来はopencv-python==4.3.0.36）<br>
 ```bash
-pip install tensorflow=2.4.0 opencv-python==4.3.0.38
+pip install tensorflow==2.4.0 opencv-python==4.3.0.38
 ```
 
 # Apple Silicon等ローカルでの実施が困難な場合
