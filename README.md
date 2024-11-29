@@ -60,9 +60,16 @@ conda create -n gender_env python=3.8
 ```bash
 conda activate gender_env
 ```
-### 3. 必要なパッケージをインストール
+### 3. 必要なパッケージをインストール (Apple Silicon以外)
 pip installが可能であるopencv-python==4.3.0.38に変更しています。（本来はopencv-python==4.3.0.36）<br>
 ```bash
 pip install tensorflow==2.4.0 opencv-python==4.3.0.38
 ```
+### 3. 必要なパッケージをインストール (Apple Siliconのみ)
+指定のバージョンでは動作しないため、バージョンの指定はなし<br>
+動作確認：tensorflow=2.13.0、opencv-python==4.10.0<br>
+```bash
+pip install tensorflow opencv-python
+```
+
 
