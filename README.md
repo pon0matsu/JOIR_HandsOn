@@ -1,4 +1,4 @@
-# ハンズオン用資料
+# ハンズオン資料
 ## Anaconda環境構築
 https://www.anaconda.com/download/ <br>
 ・Eメールアドレスを登録し、ダウンロードページヘ。<br>
