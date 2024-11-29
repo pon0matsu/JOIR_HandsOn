@@ -28,9 +28,8 @@ conda install [ライブラリ名]
 ```
 
 # ①年齢モデルのConda 環境を構築する方法　<br>
-http://www.joir.jp/data/<br>
 この手順では、ターミナルから直接コマンドを実行して`age_env`という名前のConda環境を構築します。<br>
----
+http://www.joir.jp/data/<br>
 ## 手順
 ### 1. 新しい環境を作成
 以下のコマンドで、Python 3.8を使用する新しい環境を作成します。<br>
@@ -47,9 +46,8 @@ pip install pytorch==1.9.0 torchvision==0.10.0 numpy==1.22.1 pillow==9.0.0 tqdm=
 ```
 
 # ②性別モデルのConda 環境を構築する方法<br>
-http://www.joir.jp/data/<br>
 この手順では、ターミナルから直接コマンドを実行して`gender_env`という名前のConda環境を構築します。<br>
----
+http://www.joir.jp/data/<br>
 ## 手順
 ### 1. 新しい環境を作成
 以下のコマンドで、Python 3.8を使用する新しい環境を作成します。<br>
