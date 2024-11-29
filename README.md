@@ -66,7 +66,7 @@ pip installが可能であるopencv-python==4.3.0.38に変更しています。�
 pip install tensorflow==2.4.0 opencv-python==4.3.0.38
 ```
 
-# Apple Silicon等ローカルでの実施が困難な場合
+# PCでの環境構築が困難な場合
 Google Colabを使用<br>
 Google ColabのセルはPythonコードを記述して実行するために使われることが多いのですが、セルの先頭に%%shellと書くことで、PythonではなくLinuxコマンド（Shellコマンド）を実行するためのセルに切り替えることができるため、それを利用した形になります。<br>
 ## 年齢モデル
